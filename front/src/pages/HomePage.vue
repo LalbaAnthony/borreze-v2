@@ -1,5 +1,5 @@
 <template>
-  <h1>This is an HomePage</h1>
+  <h1>This is the HomePage</h1>
 </template>
 
 <style scoped></style>
