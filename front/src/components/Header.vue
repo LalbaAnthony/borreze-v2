@@ -29,7 +29,9 @@ import IconCalendar from './icons/IconCalendar.vue'
 import IconBuilding from './icons/IconBuilding.vue'
 import IconInfoCircle from './icons/IconInfoCircle.vue'
 import IconEnvelope from './icons/IconEnvelope.vue'
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
 const mobile = isMobile()
 const menu = ref([
   {
