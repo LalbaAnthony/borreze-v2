@@ -3,6 +3,9 @@
     <router-link to="/">
       <h1 class="main-title">Borrèze</h1>
     </router-link>
+    <div class="quick-access">
+      Liens pratiques
+    </div>
     <img class="menu-image" src="/img/borreze-header-cropped.jpg" alt="Image de fond de Borrèze">
     <div class="menu-list">
       <router-link v-for="item in menu" :key="item.slug" :to="item.path">
@@ -97,10 +100,9 @@ header {
 h1.main-title {
   color: var(--light);
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 40px;
+  left: 10%;
   font-family: 'Rethink Sans', 'Roboto';
-  transform: translate(40%, 30%);
   font-size: 80px;
   z-index: 1;
 }
@@ -139,6 +141,18 @@ h1.main-title:after {
   }
 }
 
+.quick-access {
+  position: absolute;
+  color: var(--light);
+  background-color: rgba(0, 0, 0, .35);
+  top: 0;
+  right: 10%;
+  font-family: 'Rethink Sans', 'Roboto';
+  padding: 1rem;
+  height: 200px;
+  z-index: 1;
+}
+
 img.menu-image {
   width: 100%;
   height: 200px;
@@ -158,7 +172,7 @@ img.menu-image {
 .menu-list>* {
   background-color: var(--primary);
   color: var(--light);
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2rem;
 }
 
 .menu-list>*:hover {
