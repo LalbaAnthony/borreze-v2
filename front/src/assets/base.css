@@ -1,29 +1,43 @@
-/* color palette from */
 :root {
+  --primary-ligher: #ff2a31;
+  --primary: #DC1D22;
+  --primary-darker: rgb(105, 0, 0);
+  --light: #ffffff;
+  --dark: #181818;
 
-  --primary-ligher: #ff5454;
-  --primary: #fe0000;
-  --primary-darker: #990000;
+  --bs-success: #28a745;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-
-  --vt-c-white: #ffffff;
-  --vt-c-black: #181818;
-}
-
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-text: var(--vt-c-black);
-
-  --section-gap: 160px;
 }
 
 *,
 *::before,
 *::after {
+  padding: 0;
   margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
   font-weight: normal;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Code for Firefox */
+::-moz-selection {
+  color: var(--light);
+  background: var(--primary);
+}
+
+::selection {
+  color: var(--light);
+  background: var(--primary);
 }
 
 body {
