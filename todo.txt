@@ -1,4 +1,5 @@
 - [ ] Faire base d'inté, depuis le site de la ville de lyon
+- [ ] Changé style du menu header sur la page actuelle
 - [ ] Page actualité, API pour récup les actus depuis facebook ?
 - [ ] Page sdf
 - [ ] Page histoire
