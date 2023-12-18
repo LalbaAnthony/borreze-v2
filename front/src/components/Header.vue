@@ -4,7 +4,7 @@
       <h1 class="main-title">Borrèze</h1>
     </router-link>
     <div class="quick-access">
-      Liens pratiques
+      LIENS PRATIQUES
     </div>
     <img class="menu-image" src="/img/borreze-header-cropped.jpg" alt="Image de fond de Borrèze">
     <div class="menu-list">
@@ -105,6 +105,7 @@ h1.main-title {
   font-family: 'Rethink Sans', 'Roboto';
   font-size: 80px;
   z-index: 1;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* h1.main-title::before {

@@ -1,0 +1,10 @@
+- [ ] Faire base d'inté, depuis le site de la ville de lyon
+- [ ] Page actualité, API pour récup les actus depuis facebook ?
+- [ ] Page sdf
+- [ ] Page histoire
+- [ ] Page de contact
+- [ ] Mentions légales
+- [ ] Footer avec toute coordonnée et plan du site et mention légales
+- [ ] Pop up administrable
+- [ ] Truc pour générer les menus, avec Save des données en session, puis genre pdf qui s'affiche sur le site, possibilité de set des jour férié
+- [ ] Page admin (prendre le fameux template boot strap ?)
