@@ -3,7 +3,7 @@
     <router-link to="/">
       <h1 class="main-title">Borrèze</h1>
     </router-link>
-    <div v-if="!mobile" class="quick-access">
+    <div class="quick-access">
       <div class="quick-access-list">
         <a href="tel:+33553288338">
           <IconTelephone class="quick-acces-icon icon-offset" />
@@ -112,14 +112,6 @@ const getComponent = (icon) => {
   }
 };
 
-// function toggleSidePanel() {
-//   sidePanelOpened.value = !sidePanelOpened.value;
-// }
-
-// function closeSidePanel() {
-//   sidePanelOpened.value = false;
-// }
-
 </script>
 
 <style scoped>
@@ -137,6 +129,10 @@ header {
   h1.main-title:after {
     transform: translate(0, -30px);
   }
+
+  .quick-access {
+    right: 10%;
+  }
 }
 
 /* MOBILE */
@@ -147,6 +143,10 @@ header {
 
   h1.main-title:after {
     transform: translate(0, -20px);
+  }
+
+  .quick-access {
+    right: 0px;
   }
 
   .menu-list {
@@ -213,7 +213,6 @@ h1.main-title:after {
   color: var(--light);
   background-color: rgba(0, 0, 0, .35);
   top: 0;
-  right: 10%;
   font-family: 'Rethink Sans', 'Roboto';
   padding: 1rem;
   height: 200px;
@@ -276,6 +275,7 @@ img.header-image {
   padding: 0.5rem 5%;
   border: none;
   z-index: 1;
+  border-bottom: solid 3px var(--light);
 }
 
 .menu-list>* {
