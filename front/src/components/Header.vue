@@ -25,7 +25,7 @@
         <IconChevronUp :class="['icon-offset', open ? 'rotate-0' : 'rotate-180']" />
       </DisclosureButton>
       <DisclosurePanel :class="['menu-list', open ? '' : 'menu-list-hidden']">
-        <router-link v-for=" item in menu " :key="item.slug" :to="item.path" @click="close()"
+        <router-link v-for=" item in menu " :key="item.slug" :to="item.path" @click="open = false"
           :class="route.name === item.slug ? 'selected' : ''">
           <component class="icon-offset" :is="getComponent(item.icon)" />
           {{ item.name }}
@@ -275,7 +275,7 @@ img.header-image {
   padding: 0.5rem 5%;
   border: none;
   z-index: 1;
-  border-bottom: solid 3px var(--light);
+  /* border-bottom: solid 3px var(--light); */
 }
 
 .menu-list>* {
