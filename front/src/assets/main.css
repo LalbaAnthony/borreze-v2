@@ -16,6 +16,16 @@ section {
     border-radius: 25px;
 }
 
+.rotate-0 {
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;

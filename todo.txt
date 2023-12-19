@@ -1,3 +1,6 @@
+- [ ] Header:
+    - [ ] Animation disparition menu mobile
+    - [ ] Fermeture auto du menu quand on clique
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Changé style du menu header sur la page actuelle
 - [ ] Page actualité, API pour récup les actus depuis facebook ?

@@ -7,26 +7,33 @@
       <div class="quick-access-list">
         <a href="tel:+33553288338">
           <IconTelephone class="quick-acces-icon icon-offset" />
-          <p>Appeler</p>
+          <span>Appeler</span>
         </a>
         <a href="mailto:mairie.borreze@wanadoo.fr">
           <IconEnvelope class="quick-acces-icon icon-offset" />
-          <p>E-mail</p>
+          <span>E-mail</span>
         </a>
         <a href="https://www.facebook.com/MairiedeBorreze/" target="_blank" rel="noopener noreferrer">
           <IconFacebook class="quick-acces-icon icon-offset" />
-          <p>Facebook</p>
+          <span>Facebook</span>
         </a>
       </div>
     </div>
     <img class="header-image" src="/img/borreze-header-cropped.jpg" alt="Image de fond de Borrèze">
-    <!-- <div v-if="mobile"> -->
-      
-
-
-
-    <div class="menu-list">
-      <router-link v-for="item in menu" :key="item.slug" :to="item.path"
+    <Disclosure v-if="mobile" v-slot="{ open }">
+      <DisclosureButton class="menu-button">
+        <IconChevronUp :class="['icon-offset', open ? 'rotate-0' : 'rotate-180']" />
+      </DisclosureButton>
+      <DisclosurePanel :class="['menu-list', open ? '' : 'menu-list-hidden']">
+        <router-link v-for=" item in menu " :key="item.slug" :to="item.path" @click="close()"
+          :class="route.name === item.slug ? 'selected' : ''">
+          <component class="icon-offset" :is="getComponent(item.icon)" />
+          {{ item.name }}
+        </router-link>
+      </DisclosurePanel>
+    </Disclosure>
+    <div v-else class="menu-list">
+      <router-link v-for=" item in menu " :key="item.slug" :to="item.path"
         :class="route.name === item.slug ? 'selected' : ''">
         <component class="icon-offset" :is="getComponent(item.icon)" />
         {{ item.name }}
@@ -38,6 +45,7 @@
 <script setup>
 import { ref } from 'vue'
 import { isMobile } from '../helpers/helpers.js'
+import { useRoute } from 'vue-router'
 import IconHouse from './icons/IconHouse.vue'
 import IconCalendar from './icons/IconCalendar.vue'
 import IconBuilding from './icons/IconBuilding.vue'
@@ -45,7 +53,12 @@ import IconInfoCircle from './icons/IconInfoCircle.vue'
 import IconEnvelope from './icons/IconEnvelope.vue'
 import IconTelephone from './icons/IconTelephone.vue'
 import IconFacebook from './icons/IconFacebook.vue'
-import { useRoute } from 'vue-router'
+import IconChevronUp from './icons/IconChevronUp.vue'
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from '@headlessui/vue'
 
 const route = useRoute()
 const mobile = isMobile()
@@ -122,8 +135,8 @@ header {
   }
 
   h1.main-title:after {
-  transform: translate(0, -30px);
-}
+    transform: translate(0, -30px);
+  }
 }
 
 /* MOBILE */
@@ -136,21 +149,28 @@ header {
     transform: translate(0, -20px);
   }
 
-  .quick-access {
-    display: none;
-  }
-
   .menu-list {
     flex-direction: column;
     align-items: center;
+    animation-name: verticalSlideAndOpacity;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes verticalSlideAndOpacity {
+    0% {
+      opacity: 0;
+      transform: translate(0, -300px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
   }
 
   .menu-list>* {
     /* padding: 0.5rem 0; */
     width: 100%;
-  }
-  .menu-list>*:last-child {
-border-bottom: solid 2px var(--primary);
   }
 }
 
@@ -160,7 +180,7 @@ h1.main-title {
   top: 40px;
   left: 10%;
   font-family: 'Rethink Sans', 'Roboto';
-  z-index: 1;
+  z-index: 2;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -197,7 +217,7 @@ h1.main-title:after {
   font-family: 'Rethink Sans', 'Roboto';
   padding: 1rem;
   height: 200px;
-  z-index: 1;
+  z-index: 5;
 }
 
 .quick-access-list {
@@ -228,8 +248,10 @@ img.header-image {
   height: 200px;
   object-fit: cover;
   object-position: center;
-  filter: brightness(50%)
+  filter: brightness(50%);
+  z-index: 1;
 }
+
 
 .menu-list {
   background-color: var(--primary);
@@ -237,6 +259,23 @@ img.header-image {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-list-hidden {
+  transform: translateY(-100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 0.5rem 5%;
+  border: none;
+  z-index: 1;
 }
 
 .menu-list>* {
