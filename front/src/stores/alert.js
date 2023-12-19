@@ -17,7 +17,7 @@ export const useAlertStore = defineStore('alert', {
     closeAlert() {
       this.isOpen = false
       this.seen = true
-      localStorage.setItem(`seenAlertBorreze${this.alert.id}`, true)
+      localStorage.setItem(`alertBorrezeSeen${this.alert.id}`, true)
     },
 
     async fetchAlert() {

@@ -18,7 +18,7 @@ const alertStore = useAlertStore()
 
 onMounted(() => {
   alertStore.fetchAlert()
-  if (localStorage.getItem(`seenAlertBorreze${alertStore.alert.id}`) !== 'true') {
+  if (localStorage.getItem(`alertBorrezeSeen${alertStore.alert.id}`) !== 'true') {
     alertStore.seen = false
     alertStore.isOpen = true
   }

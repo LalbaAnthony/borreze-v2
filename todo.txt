@@ -2,7 +2,7 @@
 - [X] Footer
 - [ ] Alert component & store:
     - [ ] Animation
-    - [ ] Fond dark sur la pop up
+    - [X] Fond dark sur la pop up
     - [X] Souvenir local et stocker en local
 - [ ] Header:
     - [X] Animation disparition menu mobile
