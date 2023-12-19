@@ -251,7 +251,6 @@ img.header-image {
   z-index: 1;
 }
 
-
 .menu-list {
   background-color: var(--primary);
   color: var(--light);

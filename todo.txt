@@ -1,12 +1,18 @@
+- [X] Margin padding main
+- [X] Footer
+- [ ] Alert component & store:
+    - [ ] Animation
+    - [ ] Fond dark sur la pop up
+    - [X] Souvenir local et stocker en local
 - [ ] Header:
-    - [ ] Animation disparition menu mobile
+    - [X] Animation disparition menu mobile
     - [ ] Fermeture auto du menu quand on clique
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
-- [ ] Changé style du menu header sur la page actuelle
 - [ ] Page actualité, API pour récup les actus depuis facebook ?
+- [ ] Changé style du menu header sur la page actuelle
 - [ ] Page sdf
-- [ ] Page histoire
-- [ ] Page de contact
+- [ ] Page conseils municipale
+- [ ] Page de contact sans formulaire
 - [ ] Mentions légales
 - [ ] Footer avec toute coordonnée et plan du site et mention légales
 - [ ] Pop up administrable
