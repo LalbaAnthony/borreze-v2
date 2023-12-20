@@ -24,7 +24,7 @@
 @media (max-width: 767px) {
     main {
         margin: 1rem 0.5rem;
-        padding: 2rem 1rem;
+        padding: 1rem 0.5rem;
     }
 }
 
@@ -32,9 +32,33 @@ section {
     padding: 0.5rem 1rem;
 }
 
+.page-title {
+    border: none;
+    border-left: 5px solid var(--primary);
+    color: var(--dark);
+    padding: 0.25rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    animation-name: slideLeft;
+    animation-duration: 0.5s;
+}
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .pill {
     background-color: var(--primary);
-    color: var(--vt-c-white);
+    color: var(--light);
     padding: 3px 10px;
     font-size: 12px;
     border-radius: 25px;

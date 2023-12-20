@@ -1,7 +1,8 @@
 <template>
   <header>
     <router-link to="/">
-      <h1 class="main-title">Borrèze</h1>
+      <img class="armorial" src="/armorial_borreze.png" alt="Armorial de Borrèze">
+      <h1 class="site-title">Borrèze</h1>
     </router-link>
     <div class="quick-access">
       <div class="quick-access-list">
@@ -19,7 +20,7 @@
         </a>
       </div>
     </div>
-    <img class="header-image" src="/img/borreze-header-cropped.jpg" alt="Image de fond de Borrèze">
+    <img class="header-image" src="/photos/borreze-place.webp" alt="Image de fond de Borrèze">
     <Disclosure v-if="mobile" v-slot="{ open }">
       <DisclosureButton class="menu-button">
         <IconChevronUp :class="['icon-offset', open ? 'rotate-0' : 'rotate-180']" />
@@ -122,11 +123,20 @@ header {
 
 /* DESKTOP */
 @media (min-width: 767px) {
-  h1.main-title {
-    font-size: 80px;
+
+  img.armorial {
+    height: 65px;
+    top: 75px;
+    left: 7%;
   }
 
-  h1.main-title:after {
+  h1.site-title {
+    font-size: 80px;
+    top: 40px;
+    left: 14%;
+  }
+
+  h1.site-title:after {
     transform: translate(0, -30px);
   }
 
@@ -137,11 +147,20 @@ header {
 
 /* MOBILE */
 @media (max-width: 767px) {
-  h1.main-title {
-    font-size: 60px;
+
+  img.armorial {
+    height: 50px;
+    top: 65px;
+    left: 3%;
   }
 
-  h1.main-title:after {
+  h1.site-title {
+    font-size: 60px;
+    top: 40px;
+    left: 14%;
+  }
+
+  h1.site-title:after {
     transform: translate(0, -20px);
   }
 
@@ -174,17 +193,20 @@ header {
   }
 }
 
-h1.main-title {
+img.armorial {
+  position: absolute;
+  z-index: 2;
+}
+
+h1.site-title {
   color: var(--light);
   position: absolute;
-  top: 40px;
-  left: 10%;
   font-family: 'Rethink Sans', 'Roboto';
   z-index: 2;
   text-shadow: 1px 1px 2px black;
 }
 
-h1.main-title:after {
+h1.site-title:after {
   content: "";
   display: block;
   width: 120px;

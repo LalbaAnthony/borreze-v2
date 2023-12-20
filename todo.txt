@@ -1,11 +1,14 @@
 - [X] Margin padding main
 - [X] Footer
+- [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
 - [ ] Alert component & store:
-    - [ ] Animation
+    - [ ] Animation Fermeture
+    - [ ] Animation ouverture
     - [X] Fond dark sur la pop up
     - [X] Souvenir local et stocker en local
 - [ ] Header:
-    - [X] Animation disparition menu mobile
+    - [ ] Animation Fermeture
+    - [ ] Animation ouverture
     - [ ] Fermeture auto du menu quand on clique
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Page actualité, API pour récup les actus depuis facebook ?
@@ -18,3 +21,4 @@
 - [ ] Pop up administrable
 - [ ] Truc pour générer les menus, avec Save des données en session, puis genre pdf qui s'affiche sur le site, possibilité de set des jour férié
 - [ ] Page admin (prendre le fameux template boot strap ?)
+- [ ] Bosser SEO, sr-only, lighthouse, etc

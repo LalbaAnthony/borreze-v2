@@ -56,7 +56,8 @@ function openLink(link) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  gap: 1rem;
+  padding: 2rem;
   z-index: 1000;
 }
 
