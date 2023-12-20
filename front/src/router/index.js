@@ -17,11 +17,11 @@ const router = createRouter({
     {
       path: '/actualites/:slug',
       name: 'actualite',
-      component: () => import('../pages/actu/ActualitePage.vue'),
+      component: () => import('../pages/actu/ActualiteDetails.vue'),
     },
     {
-      path: '/salles-des-fetes',
-      name: 'salles-des-fetes',
+      path: '/salle-des-fetes',
+      name: 'salle-des-fetes',
       component: () => import('../pages/SalleDesFetesPage.vue'),
     },
     {

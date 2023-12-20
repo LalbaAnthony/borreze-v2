@@ -77,9 +77,9 @@ const menu = ref([
     icon: 'IconCalendar',
   },
   {
-    name: 'Salles des fêtes',
-    slug: 'salles-des-fetes',
-    path: '/salles-des-fetes',
+    name: 'Salle des fêtes',
+    slug: 'salle-des-fetes',
+    path: '/salle-des-fetes',
     icon: 'IconBuilding',
   },
   {
