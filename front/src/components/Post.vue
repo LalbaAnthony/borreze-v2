@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="post.path">
+  <router-link :to="`actualites/${post.slug}`">
     <div class="post">
       <img :src="post.image" :alt="`Image de ${post.title}`" class="hover-effect" />
       <div class="post-content">
@@ -54,7 +54,7 @@ defineProps({
 
 h3.post-title {
   font-size: 1rem;
-  line-height: 0.9;
+  line-height: 1.2;
   font-weight: 600;
   margin: 0;
 }
@@ -64,8 +64,8 @@ p.post-text {
 }
 
 .following-arrow {
-  margin: 1rem;
-  right: 50px;
+  margin: 1rem 2rem;
+  float: right;
   color: var(--primary);
   width: 2rem;
   height: 2rem;

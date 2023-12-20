@@ -2,22 +2,28 @@
   <h2 class="page-title">Actualités</h2>
   <div class="posts-grid">
     <Post :post="{
-      image: 'public/photos/borreze-mairie.webp',
+      image: '/public/photos/borreze-mairie.webp',
       title: 'Lorem ipsum dolor sit amet consectetur',
       text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-      path: '/actualites/1',
+      slug: 'post1',
     }" />
     <Post :post="{
-      image: 'public/photos/borreze-mairie.webp',
+      image: '/public/photos/borreze-mairie.webp',
       title: 'Post 1',
       text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-      path: '/actualites/1',
+      slug: 'post1',
     }" />
     <Post :post="{
-      image: 'public/photos/borreze-mairie.webp',
+      image: '/public/photos/borreze-mairie.webp',
       title: 'Post 1',
       text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-      path: '/actualites/1',
+      slug: 'post1',
+    }" />
+    <Post :post="{
+      image: '/public/photos/borreze-mairie.webp',
+      title: 'Post 1',
+      text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+      slug: 'post1',
     }" />
   </div>
   <!-- <div v-else class="main-center">
@@ -26,7 +32,7 @@
 </template>
 
 <script setup>
-import Post from '../components/Post.vue'
+import Post from '../../components/Post.vue'
 </script>
 
 <style scoped>

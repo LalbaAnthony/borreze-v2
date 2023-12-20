@@ -1,6 +1,7 @@
 - [X] Margin padding main
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
+- [ ] Breadcrumb
 - [ ] Alert component & store:
     - [ ] Animation Fermeture
     - [ ] Animation ouverture

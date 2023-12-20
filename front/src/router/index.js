@@ -12,32 +12,41 @@ const router = createRouter({
     {
       path: '/actualites',
       name: 'actualites',
-      component: () => import('../pages/Actualites.vue'),
+      component: () => import('../pages/actu/ActualitesPage.vue'),
+    },
+    {
+      path: '/actualites/:slug',
+      name: 'actualite',
+      component: () => import('../pages/actu/ActualitePage.vue'),
     },
     {
       path: '/salles-des-fetes',
       name: 'salles-des-fetes',
-      component: () => import('../pages/SalleDesFetes.vue'),
+      component: () => import('../pages/SalleDesFetesPage.vue'),
     },
     {
       path: '/a-propos',
       name: 'a-propos',
-      component: () => import('../pages/APropos.vue'),
+      component: () => import('../pages/AProposPage.vue'),
     },
     {
       path: '/contact',
       name: 'contact',
-      component: () => import('../pages/Contact.vue'),
+      component: () => import('../pages/ContactPage.vue'),
     },
     {
       path: '/plan-du-site',
       name: 'plan-du-site',
-      component: () => import('../pages/PlanDuSite.vue'),
+      component: () => import('../pages/PlanDuSitePage.vue'),
     },
     {
       path: '/mentions-legales',
       name: 'mentions-legales',
-      component: () => import('../pages/MentionsLegales.vue'),
+      component: () => import('../pages/MentionsLegalesPage.vue'),
+    },
+    {
+      path: '/:catchAll(.*)*',
+      component: () => import('../pages/error/ErrorNotFound.vue'),
     },
   ],
 })
