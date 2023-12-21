@@ -32,8 +32,8 @@ defineProps({
 }
 
 .conseiller>img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   object-fit: cover;
   object-position: center;

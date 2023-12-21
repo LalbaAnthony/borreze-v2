@@ -72,6 +72,19 @@ h3.section-title:after {
     margin-top: 0.25rem;
 }
 
+img.page-img {
+    width: 100%;
+    height: auto;
+}
+
+img.page-img:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary);
+    margin-top: 0.25rem;
+}
 
 span.pill {
     background-color: var(--primary);

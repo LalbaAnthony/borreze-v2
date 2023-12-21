@@ -1,4 +1,4 @@
-<template>
+z<template>
   <header>
     <router-link to="/">
       <img class="armorial" src="/armorial_borreze.png" alt="Armorial de Borrèze">

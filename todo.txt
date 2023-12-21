@@ -5,7 +5,7 @@ Front:
     - [ ] Animation Fermeture
     - [ ] Animation ouverture
     - [ ] Fermeture auto du menu quand on clique
-    - [X] Changé style du menu header sur la page actuelle
+    - [ ] Fixer chg style du menu header sur la page actuelle
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)

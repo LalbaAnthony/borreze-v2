@@ -1,7 +1,7 @@
 <template>
   <h2 class="page-title">Salle des fêtes</h2>
   <section>
-    <img src="/public/photos/borreze-mairie.webp" alt="">
+    <img  class="page-img" src="/public/photos/borreze-scene_sdf.webp" alt="Photo de la salle des fêtes de Borrèze">
   </section>
   <section>
     <h3 class="section-title">Informations:</h3>
