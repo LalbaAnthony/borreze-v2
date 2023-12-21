@@ -27,10 +27,9 @@ defineProps({
 .conseiller {
   color: var(--dark);
   background-color: var(--light);
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center
 }
-
 
 .conseiller>img {
   width: 200px;

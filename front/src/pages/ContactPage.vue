@@ -1,5 +1,5 @@
 <template>
-  <div>WIP</div>
+  <h2 class="page-title">Contactez-nous !</h2>
 </template>
 
 <script setup>

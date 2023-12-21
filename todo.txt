@@ -1,25 +1,32 @@
+Front:
 - [X] Margin padding main
+- [ ] Header:
+    ...
+    - [ ] Animation Fermeture
+    - [ ] Animation ouverture
+    - [ ] Fermeture auto du menu quand on clique
+    - [X] Changé style du menu header sur la page actuelle
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
+- [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Breadcrumb
 - [ ] Alert component & store:
     - [ ] Animation Fermeture
     - [ ] Animation ouverture
+    - [ ] Possibilté de changer le nombre d'ouverture avant enlever popup
     - [X] Fond dark sur la pop up
     - [X] Souvenir local et stocker en local
-- [ ] Header:
-    - [ ] Animation Fermeture
-    - [ ] Animation ouverture
-    - [ ] Fermeture auto du menu quand on clique
-- [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
-- [ ] Page actualité, API pour récup les actus depuis facebook ?
-- [ ] Changé style du menu header sur la page actuelle
-- [X] Page sdf
-- [ ] Page conseils municipale
-- [ ] Page de contact sans formulaire
-- [ ] Mentions légales
-- [ ] Footer avec toute coordonnée et plan du site et mention légales
-- [ ] Pop up administrable
+- [X] Pages:
+    - [ ] Actualité, API pour récup les actus depuis facebook ?
+    - [ ] Conseils municipale
+    - [ ] Contact sans formulaire
+    - [X] Salle des fêtes
+    - [ ] Mentions légales
+- [X] Footer avec toute coordonnée et plan du site et mention légales
+- [X] Pop up administrable
+- [ ] Bosser SEO, sr-only, lighthouse, etc
+
+Back:
 - [ ] Truc pour générer les menus, avec Save des données en session, puis genre pdf qui s'affiche sur le site, possibilité de set des jour férié
 - [ ] Page admin (prendre le fameux template boot strap ?)
-- [ ] Bosser SEO, sr-only, lighthouse, etc
+...
