@@ -73,7 +73,7 @@ h3.section-title:after {
 }
 
 
-.pill {
+span.pill {
     background-color: var(--primary);
     color: var(--light);
     padding: 3px 10px;

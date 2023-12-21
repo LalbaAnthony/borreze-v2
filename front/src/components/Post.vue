@@ -1,8 +1,9 @@
 <template>
   <router-link :to="`actualites/${post.slug}`">
     <div class="post">
-      <img :src="post.image" :alt="`Image de ${post.title}`" />
+      <img :src="post.image ? post.image : 'public/helpers/no-img-available.webp'" :alt="`Image de ${post.title}`" />
       <div class="post-content">
+        <span v-if="post.category" class="pill">{{ post.category }}</span>
         <h3 class="post-title">{{ post.title }}</h3>
         <p class="post-text">{{ threeDotString(post.text) }}</p>
       </div>
@@ -55,11 +56,11 @@ h3.post-title {
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 600;
-  margin: 0;
+  margin-top: 0.5rem;
 }
 
 p.post-text {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .following-arrow {

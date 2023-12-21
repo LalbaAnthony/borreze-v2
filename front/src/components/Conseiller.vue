@@ -1,6 +1,6 @@
 <template>
   <div class="conseiller">
-    <img :src="conseiller.image" :alt="`Photo de ${conseiller.nom} ${conseiller.prenom}`" />
+    <img :src="conseiller.image ? conseiller.image : 'public/helpers/no-pp-available.webp'" :alt="`Photo de ${conseiller.nom} ${conseiller.prenom}`" />
     <div class="name">
       {{ conseiller.nom }} {{ conseiller.prenom }}
     </div>

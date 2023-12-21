@@ -1,5 +1,8 @@
 <template>
-<h2 class="page-title">Salle des fêtes</h2>
+  <h2 class="page-title">Salle des fêtes</h2>
+  <section>
+    <img src="/public/photos/borreze-mairie.webp" alt="">
+  </section>
   <section>
     <h3 class="section-title">Informations:</h3>
     <p>
@@ -18,7 +21,7 @@
     <p>
       Pour toute demande de location, merci de contacter la mairie au
       <a class="link" href="tel:+33553288338">05 53 28 83 38</a>, ou par mail à <a class="link"
-      href="mailto:mairie.borreze@wanadoo.fr">mairie.borreze@wanadoo.fr</a>.
+        href="mailto:mairie.borreze@wanadoo.fr">mairie.borreze@wanadoo.fr</a>.
     </p>
   </section>
   <section>
@@ -96,5 +99,4 @@ td.primary {
   background-color: var(--primary);
   color: var(--light);
 }
-
 </style>

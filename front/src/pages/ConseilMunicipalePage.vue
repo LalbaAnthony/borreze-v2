@@ -2,7 +2,7 @@
   <h2 class="page-title">Membres du conseil municipal</h2>
   <div class="conseiller-grid">
     <Conseiller v-for="i in 5" :conseiller="{
-      image: 'https://picsum.photos/id/1005/800/450',
+      image: '',
       nom: 'Dujardin',
       prenom: 'Jean',
       age: 54,

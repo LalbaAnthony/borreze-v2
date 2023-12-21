@@ -3,6 +3,7 @@
   <div class="posts-grid">
     <Post v-for="i in 5" :post="{
       image: '/public/photos/borreze-mairie.webp',
+      category: 'Evenement',
       title: 'Lorem ipsum dolor sit amet consectetur',
       text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
       slug: 'post1',
