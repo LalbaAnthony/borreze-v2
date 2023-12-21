@@ -1,5 +1,5 @@
 <template>
-  <div>PLLLLZ WORK</div>
+  <div>WIP</div>
 </template>
 
 <script setup>

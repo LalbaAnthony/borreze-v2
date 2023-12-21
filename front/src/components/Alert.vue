@@ -12,7 +12,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { useAlertStore } from '../stores/alert'
+import { useAlertStore } from '@/stores/alert'
 
 const alertStore = useAlertStore()
 

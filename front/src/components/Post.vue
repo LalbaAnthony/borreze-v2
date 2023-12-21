@@ -13,8 +13,8 @@
 </template>
 
 <script setup>
-import IconArrowRight from './icons/IconArrowRight.vue'
-import { threeDotString } from '../helpers/helpers.js'
+import IconArrowRight from '@/components/icons/IconArrowRight.vue'
+import { threeDotString } from '@/helpers/helpers.js'
 
 defineProps({
   post: {

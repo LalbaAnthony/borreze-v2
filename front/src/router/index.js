@@ -6,42 +6,42 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'accueil',
+      name: 'Accueil',
       component: () => import('../pages/HomePage.vue'),
     },
     {
       path: '/actualites',
-      name: 'actualites',
+      name: 'Actualités',
       component: () => import('../pages/actu/ActualitesPage.vue'),
     },
     {
       path: '/actualites/:slug',
-      name: 'actualite',
+      name: 'Actualité',
       component: () => import('../pages/actu/ActualiteDetails.vue'),
     },
     {
       path: '/salle-des-fetes',
-      name: 'salle-des-fetes',
+      name: 'Salle des fetes',
       component: () => import('../pages/SalleDesFetesPage.vue'),
     },
     {
       path: '/conseil-municipale',
-      name: 'conseil-municipale',
+      name: 'Conseil municipale',
       component: () => import('../pages/ConseilMunicipalePage.vue'),
     },
     {
       path: '/contact',
-      name: 'contact',
+      name: 'Contact',
       component: () => import('../pages/ContactPage.vue'),
     },
     {
       path: '/plan-du-site',
-      name: 'plan-du-site',
+      name: 'Plan du site',
       component: () => import('../pages/PlanDuSitePage.vue'),
     },
     {
       path: '/mentions-legales',
-      name: 'mentions-legales',
+      name: 'Mentions légales',
       component: () => import('../pages/MentionsLegalesPage.vue'),
     },
     {

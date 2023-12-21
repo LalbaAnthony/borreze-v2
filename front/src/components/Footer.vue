@@ -27,8 +27,8 @@
 </template>
 
 <script setup>
-import IconFacebook from './icons/IconFacebook.vue'
-import IconInstagram from './icons/IconInstagram.vue'
+import IconFacebook from '@/components/icons/IconFacebook.vue'
+import IconInstagram from '@/components/icons/IconInstagram.vue'
 
 </script>
 

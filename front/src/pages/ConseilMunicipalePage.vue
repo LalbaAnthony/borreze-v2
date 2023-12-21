@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import Conseiller from '../components/Conseiller.vue'
+import Conseiller from '@/components/Conseiller.vue'
 </script>
 
 <style scoped>

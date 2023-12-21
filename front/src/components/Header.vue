@@ -45,16 +45,16 @@
 
 <script setup>
 import { ref } from 'vue'
-import { isMobile } from '../helpers/helpers.js'
+import { isMobile } from '@/helpers/helpers.js'
 import { useRoute } from 'vue-router'
-import IconHouse from './icons/IconHouse.vue'
-import IconCalendar from './icons/IconCalendar.vue'
-import IconBuilding from './icons/IconBuilding.vue'
-import IconPeople from './icons/IconPeople.vue'
-import IconEnvelope from './icons/IconEnvelope.vue'
-import IconTelephone from './icons/IconTelephone.vue'
-import IconFacebook from './icons/IconFacebook.vue'
-import IconChevronUp from './icons/IconChevronUp.vue'
+import IconHouse from '@/components/icons/IconHouse.vue'
+import IconCalendar from '@/components/icons/IconCalendar.vue'
+import IconBuilding from '@/components/icons/IconBuilding.vue'
+import IconPeople from '@/components/icons/IconPeople.vue'
+import IconEnvelope from '@/components/icons/IconEnvelope.vue'
+import IconTelephone from '@/components/icons/IconTelephone.vue'
+import IconFacebook from '@/components/icons/IconFacebook.vue'
+import IconChevronUp from '@/components/icons/IconChevronUp.vue'
 import {
   Disclosure,
   DisclosureButton,
@@ -312,9 +312,4 @@ img.header-image {
   transition: all 0.2s ease-in-out;
 }
 
-.icon-offset {
-  position: relative;
-  top: 2px;
-  right: 5px;
-}
 </style>

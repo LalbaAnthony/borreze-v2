@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import Post from '../../components/Post.vue'
+import Post from '@/components/Post.vue'
 </script>
 
 <style scoped>

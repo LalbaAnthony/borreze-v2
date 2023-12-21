@@ -9,10 +9,9 @@ Front:
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
-- [ ] Custom compo image
-- [ ] Chg meta en fct de page
+- [ ] Chg meta en fct de page (middleware (?))
 - [ ] Chg nom de page en fct de page
-- [ ] Breadcrumb
+- [ ] Breadcrumb + bordel du vue router avec actus / actu
 - [ ] Alert component & store:
     - [ ] Animation Fermeture
     - [ ] Animation ouverture

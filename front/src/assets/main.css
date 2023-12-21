@@ -7,24 +7,24 @@
 /* DESKTOP */
 @media (min-width: 1024px) {
     main {
-        margin: 2rem 4rem;
-        padding: 2rem 4rem;
+        margin: 1rem 4rem;
+        padding: 1rem 4rem;
     }
 }
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1023px) {
     main {
-        margin: 2rem 2rem;
-        padding: 2rem 3rem;
+        margin: 1rem 2rem;
+        padding: 1rem 3rem;
     }
 }
 
 /* MOBILE */
 @media (max-width: 767px) {
     main {
-        margin: 1rem 0.5rem;
-        padding: 1rem 0.5rem;
+        margin: 0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
     }
 }
 
@@ -40,7 +40,7 @@ h2.page-title {
     padding: 0.25rem 1rem;
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     animation-name: slideLeft;
     animation-duration: 0.5s;
 }
@@ -125,6 +125,12 @@ span.link:hover {
 .rotate-180 {
     transform: rotate(180deg);
     transition: all 0.3s;
+}
+
+.icon-offset {
+    position: relative;
+    top: 2px;
+    right: 5px;
 }
 
 .sr-only {
