@@ -50,7 +50,7 @@ import { useRoute } from 'vue-router'
 import IconHouse from './icons/IconHouse.vue'
 import IconCalendar from './icons/IconCalendar.vue'
 import IconBuilding from './icons/IconBuilding.vue'
-import IconInfoCircle from './icons/IconInfoCircle.vue'
+import IconPeople from './icons/IconPeople.vue'
 import IconEnvelope from './icons/IconEnvelope.vue'
 import IconTelephone from './icons/IconTelephone.vue'
 import IconFacebook from './icons/IconFacebook.vue'
@@ -83,10 +83,10 @@ const menu = ref([
     icon: 'IconBuilding',
   },
   {
-    name: 'À propos',
-    slug: 'a-propos',
-    path: '/a-propos',
-    icon: 'IconInfoCircle',
+    name: 'Conseil municipale',
+    slug: 'conseil-municipale',
+    path: '/conseil-municipale',
+    icon: 'IconPeople',
   },
   {
     name: 'Contact',
@@ -104,8 +104,8 @@ const getComponent = (icon) => {
       return IconCalendar;
     case 'IconBuilding':
       return IconBuilding;
-    case 'IconInfoCircle':
-      return IconInfoCircle;
+    case 'IconPeople':
+      return IconPeople;
     case 'IconEnvelope':
       return IconEnvelope;
     default:

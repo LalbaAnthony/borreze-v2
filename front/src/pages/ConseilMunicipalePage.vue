@@ -1,26 +1,28 @@
 <template>
-  <h2 class="page-title">Actualités</h2>
-  <div class="posts-grid">
-    <Post v-for="i in 5" :post="{
-      image: '/public/photos/borreze-mairie.webp',
-      title: 'Lorem ipsum dolor sit amet consectetur',
-      text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-      slug: 'post1',
+  <h2 class="page-title">Membres du conseil municipal</h2>
+  <div class="conseiller-grid">
+    <Conseiller v-for="i in 5" :conseiller="{
+      image: 'https://picsum.photos/id/1005/800/450',
+      nom: 'Dujardin',
+      prenom: 'Jean',
+      age: 54,
+      role: 'Maire',
     }" />
+    
   </div>
   <!-- <div v-else class="main-center">
-    <span class="message-no-posts"><span class="primary">Aucune</span> actualité disponible.</span>
+    <span class="message-no-conseiller"><span class="primary">Aucune</span> actualité disponible.</span>
   </div> -->
 </template>
 
 <script setup>
-import Post from '../../components/Post.vue'
+import Conseiller from '../components/Conseiller.vue'
 </script>
 
 <style scoped>
 /* DESKTOP */
 @media (min-width: 1024px) {
-  .posts-grid {
+  .conseiller-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
@@ -29,7 +31,7 @@ import Post from '../../components/Post.vue'
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .posts-grid {
+  .conseiller-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
@@ -38,14 +40,14 @@ import Post from '../../components/Post.vue'
 
 /* MOBILE */
 @media (max-width: 767px) {
-  .posts-grid {
+  .conseiller-grid {
     display: row;
     grid-template-rows: repeat(1, 1fr);
     row-gap: 1.5rem;
   }
 }
 
-.posts-grid {
+.conseiller-grid {
   margin: 3rem 0;
 }
 
@@ -56,7 +58,7 @@ import Post from '../../components/Post.vue'
   align-items: center;
 }
 
-.message-no-posts {
+.message-no-conseiller {
   color: var(--dark);
   background-color: var(--light);
   justify-content: center;

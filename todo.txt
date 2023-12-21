@@ -14,7 +14,7 @@
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Page actualité, API pour récup les actus depuis facebook ?
 - [ ] Changé style du menu header sur la page actuelle
-- [ ] Page sdf
+- [X] Page sdf
 - [ ] Page conseils municipale
 - [ ] Page de contact sans formulaire
 - [ ] Mentions légales

@@ -25,9 +25,9 @@ const router = createRouter({
       component: () => import('../pages/SalleDesFetesPage.vue'),
     },
     {
-      path: '/a-propos',
-      name: 'a-propos',
-      component: () => import('../pages/AProposPage.vue'),
+      path: '/conseil-municipale',
+      name: 'conseil-municipale',
+      component: () => import('../pages/ConseilMunicipalePage.vue'),
     },
     {
       path: '/contact',

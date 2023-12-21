@@ -1,7 +1,7 @@
 <template>
   <router-link :to="`actualites/${post.slug}`">
     <div class="post">
-      <img :src="post.image" :alt="`Image de ${post.title}`" class="hover-effect" />
+      <img :src="post.image" :alt="`Image de ${post.title}`" />
       <div class="post-content">
         <h3 class="post-title">{{ post.title }}</h3>
         <p class="post-text">{{ threeDotString(post.text) }}</p>
@@ -38,7 +38,6 @@ defineProps({
 .post>img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
   object-position: center;
   object-fit: cover;
   transition: all 0.2s ease-in-out;

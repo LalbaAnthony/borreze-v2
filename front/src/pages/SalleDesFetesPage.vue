@@ -72,6 +72,11 @@ table {
   border-collapse: collapse;
 }
 
+thead {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
 table,
 th,
 td {
@@ -80,8 +85,11 @@ td {
 
 th,
 td {
-  padding: 0.5rem;
   text-align: center;
+}
+
+td {
+  padding: 0.5rem 0.25rem;
 }
 
 td.primary {
@@ -89,11 +97,4 @@ td.primary {
   color: var(--light);
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tbody tr:hover {
-  background-color: #ddd;
-}
 </style>
