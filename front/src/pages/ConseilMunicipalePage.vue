@@ -5,7 +5,7 @@
       image: '',
       nom: 'Dujardin',
       prenom: 'Jean',
-      age: 54,
+      age: 56,
       role: 'Maire',
     }" />
     
