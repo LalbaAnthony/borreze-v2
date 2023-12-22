@@ -29,6 +29,7 @@ Front:
 - [ ] Bosser SEO, sr-only, lighthouse, etc
 
 Back:
+- [ ] Setup cte version cursed de WP en headless
 - [ ] Truc pour générer les menus, avec Save des données en session, puis genre pdf qui s'affiche sur le site, possibilité de set des jour férié
 - [ ] Page admin (prendre le fameux template boot strap ?)
 ...
