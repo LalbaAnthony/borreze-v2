@@ -1,22 +1,20 @@
 <template>
   <h2 class="page-title">Membres du conseil municipal</h2>
-  <div class="conseiller-grid">
-    <Conseiller v-for="i in 5" :conseiller="{
-      image: '',
-      nom: 'Dujardin',
-      prenom: 'Jean',
-      age: 56,
-      role: 'Maire',
-    }" />
-    
+  <div v-if="conseillerStore.conseillers" class="conseiller-grid">
+    <Conseiller v-for="conseiller in conseillerStore.conseillers" :conseiller="conseiller" />
   </div>
-  <!-- <div v-else class="main-center">
-    <span class="message-no-conseiller"><span class="primary">Aucune</span> actualité disponible.</span>
-  </div> -->
+  <div v-else class="main-center">
+    <span class="message-no-conseiller"><span class="primary">Aucun</span> membre trouvé :/</span>
+  </div>
 </template>
 
 <script setup>
 import Conseiller from '@/components/Conseiller.vue'
+import { useConseillerStore } from '@/stores/conseiller'
+
+const conseillerStore = useConseillerStore()
+conseillerStore.sortConseillers()
+
 </script>
 
 <style scoped>

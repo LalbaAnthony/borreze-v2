@@ -9,3 +9,20 @@ export function isMobile() {
 export function threeDotString(str, maxLen = 100) {
     return str.slice(0, maxLen).trim() + " ...";
 }
+
+
+export function ageFromDate(birthDate) {
+    const [day, month, year] = birthDate.split('/').map(Number);
+    const currentDate = new Date();
+    const birthday = new Date(year, month - 1, day);
+    let age = currentDate.getFullYear() - birthday.getFullYear();
+    if (
+        currentDate.getMonth() < birthday.getMonth() ||
+        (currentDate.getMonth() === birthday.getMonth() &&
+            currentDate.getDate() < birthday.getDate())
+    ) {
+        age--;
+    }
+
+    return age;
+}

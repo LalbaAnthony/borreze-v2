@@ -8,9 +8,12 @@ Front:
     - [ ] Fixer chg style du menu header sur la page actuelle
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
+- [ ] Ajouter traget blank sur tout les sites externes
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Chg meta en fct de page (middleware (?))
+- [ ] Add horraire maire https://www.mon-maire.fr/maire-de-borreze-24#google_vignette
 - [ ] Chg nom de page en fct de page
+- [ ] Ajouter conseillés, faire un store, avec fonction de tri complexe qui prend role/alphabetique et un autre table role avec ordre de tri
 - [ ] Breadcrumb + bordel du vue router avec actus / actu
 - [ ] Alert component & store:
     - [ ] Animation Fermeture

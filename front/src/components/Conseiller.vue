@@ -1,19 +1,21 @@
 <template>
   <div class="conseiller">
-    <img :src="conseiller.image ? conseiller.image : 'public/helpers/no-pp-available.webp'" :alt="`Photo de ${conseiller.nom} ${conseiller.prenom}`" />
+    <img :src="conseiller.profilePicturePath ? conseiller.profilePicturePath : 'public/helpers/no-pp-available.webp'"
+      :alt="`Photo de ${conseiller.lastname} ${conseiller.firstname}`" />
     <div class="name">
-      {{ conseiller.nom }} {{ conseiller.prenom }}
+      {{ conseiller.firstname }}<br>{{ conseiller.lastname }}
     </div>
     <div class="age">
-      {{ conseiller.age }} ans
+      {{ ageFromDate(conseiller.birthDate) }} ans
     </div>
     <div class="role">
-      {{ conseiller.role }}
+      {{ conseiller.roleLibelle }}
     </div>
   </div>
 </template>
 
 <script setup>
+import { ageFromDate } from '@/helpers/helpers.js'
 
 defineProps({
   conseiller: {
@@ -50,7 +52,8 @@ defineProps({
 }
 
 .role {
-  font-style: italic;
+  color: var(--primary);
+  /* font-style: italic; */
   font-size: 1rem;
   font-weight: 400;
 }
