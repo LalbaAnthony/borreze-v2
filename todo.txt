@@ -11,9 +11,7 @@ Front:
 - [ ] Ajouter traget blank sur tout les sites externes
 - [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Chg meta en fct de page (middleware (?))
-- [ ] Add horraire maire https://www.mon-maire.fr/maire-de-borreze-24#google_vignette
 - [ ] Chg nom de page en fct de page
-- [ ] Ajouter conseillés, faire un store, avec fonction de tri complexe qui prend role/alphabetique et un autre table role avec ordre de tri
 - [ ] Breadcrumb + bordel du vue router avec actus / actu
 - [ ] Alert component & store:
     - [ ] Animation Fermeture
@@ -24,8 +22,13 @@ Front:
 - [X] Pages:
     - [ ] Actualité, API pour récup les actus depuis facebook ?
     - [ ] Conseils municipale
+        - [ ] Animation succesif des pp
+        - [X] Ajouter conseillés, faire un store, avec fonction de tri complexe qui prend role/alphabetique et un autre table role avec ordre de tri
     - [ ] Contact sans formulaire
+        - [ ] Ajouter adresse mairie depuis site existant
+        - [ ] Add horraire maire https://www.mon-maire.fr/maire-de-borreze-24#google_vignette
     - [X] Salle des fêtes
+        - [X] Ajouter tt infos depuis site existant
     - [ ] Mentions légales
 - [X] Footer avec toute coordonnée et plan du site et mention légales
 - [X] Pop up administrable

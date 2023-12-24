@@ -2,10 +2,10 @@
   <footer>
     <div>
       <h5>Réseaux</h5>
-      <a href="https://www.instagram.com/borreze/?hl=fr">
+      <a href="https://www.instagram.com/borreze/?hl=fr" target="_blank">
         <IconInstagram class="social-icon" />
       </a>
-      <a href="https://www.facebook.com/MairiedeBorreze/">
+      <a href="https://www.facebook.com/MairiedeBorreze/" target="_blank">
         <IconFacebook class="social-icon" />
       </a>
     </div>

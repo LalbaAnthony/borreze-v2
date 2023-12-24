@@ -1,10 +1,34 @@
 <template>
   <h2 class="page-title">Salle des fêtes</h2>
   <section>
-    <img  class="page-img" src="/public/photos/borreze-scene_sdf.webp" alt="Photo de la salle des fêtes de Borrèze">
+    <img class="page-img" src="/public/photos/borreze-scene_sdf.webp" alt="Photo de la salle des fêtes de Borrèze">
   </section>
   <section>
-    <h3 class="section-title">Informations:</h3>
+    <h3 class="section-title">Spécificités:</h3>
+    <p>La salle a une superficie totale de 360 m² et comprend:</p>
+    <ul class="fancy-list">
+      <li>Une entrée de 37 m²</li>
+      <li>Une scène de 60 m²</li>
+      <li>Un bar de 17 m²</li>
+      <li>Une réserve de 12 m²</li>
+      <li>Un bloc Sanitaire de 17 m²</li>
+    </ul>
+    <br>
+    <p>Avec:</p>
+    <ul class="fancy-list">
+      <li>La salle est équipée pour réussir votre manifestation</li>
+      <li>240 chaises</li>
+      <li>40 tables de 1.80m</li>
+      <li>Un écran de 3m x 2.4m</li>
+      <li>Un projecteur fixé au plafond</li>
+      <li>Quatre projecteurs télécommandés sur rampe</li>
+      <li>Un tableau électrique spécial traiteur</li>
+    </ul>
+    <br>
+    <p>
+      La salle répond aux normes en vigueur pour l'accueil des enfants et des personnes en situation de handicap.
+    </p>
+    <br>
     <p>
       La salle des fêtes est située <a class="link"
         href="https://www.google.fr/maps/place/44%C2%B057'10.2%22N+1%C2%B023'14.4%22E/@44.9527622,1.3871338,44m"

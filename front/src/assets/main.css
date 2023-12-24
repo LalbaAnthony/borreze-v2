@@ -138,6 +138,14 @@ span.link:hover {
     right: 5px;
 }
 
+ul.fancy-list>li::before {
+    content: "•";
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;

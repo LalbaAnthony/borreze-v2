@@ -49,11 +49,11 @@ defineProps({
 .age {
   font-size: 1rem;
   font-weight: 400;
+  font-style: italic;
 }
 
 .role {
   color: var(--primary);
-  /* font-style: italic; */
   font-size: 1rem;
   font-weight: 400;
 }
