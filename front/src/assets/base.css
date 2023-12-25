@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 /* Code for Firefox */
 ::-moz-selection {
   color: var(--light);
