@@ -9,7 +9,6 @@ Front:
 - [X] Footer
 - [X] Revoir tout ce brodel d'inté du titre header, mettre l'armo dans le titre etc
 - [ ] Ajouter traget blank sur tout les sites externes
-- [ ] Faire base d'inté, depuis le site de la ville de lyon (mais pas trop quand même)
 - [ ] Chg meta en fct de page (middleware (?))
 - [ ] Chg nom de page en fct de page
 - [ ] Faire en sorte que tout les numéros de tel / mail ai un bouton copier juste à coté
@@ -32,7 +31,8 @@ Front:
         - [X] Ajouter adresse mairie depuis site existant
     - [X] Salle des fêtes
         - [X] Ajouter tt infos depuis site existant
-    - [ ] Mentions légales
+    - [X] Mentions légales
+    - [X] Plan du site
 - [X] Footer avec toute coordonnée et plan du site et mention légales
 - [X] Pop up administrable
 - [ ] Bosser SEO, sr-only, lighthouse, etc
