@@ -20,17 +20,11 @@
     <p>La loi sur la liberté de la presse de sorte qu'aucun écrit, image ou son à caractère diffamatoire, raciste ou
       révisionniste ne sera mis en ligne ;</p>
     <p>Conformément à l'article 227-24 du Code pénal relatif à la protection des mineurs, aucun message à caractère
-      violent,
-      pornographique ou portant gravement atteinte à la dignité humaine susceptible d'être vu ou perçu par un mineur ne
-      sera
-      mis en ligne ;</p>
+      violent, pornographique ou portant gravement atteinte à la dignité humaine susceptible d'être vu ou perçu par un
+      mineur ne sera mis en ligne ;</p>
     <p>Conformément à la loi LCEN du 22 juin 2004, un droit de réponse est ouvert à toute personne nommée ou désignée sur
-      le
-      site. La demande doit être faite au directeur de publication au plus tard dans les trois mois de la mise à
-      disposition
-      du public du message justifiant cette demande. Cette insertion est gratuite et se fera dans un délai de trois jours
-      de
-      la réception de la demande, mais ne pourra en aucun cas dépasser deux cents lignes.</p>
+      le site. La demande doit être faite à la commune de Borrèze au plus tard dans les trois mois de la mise à
+      mise en ligne du contenu.</p>
   </section>
 
   <section>
@@ -45,26 +39,18 @@
       dont
       la violation est passible de sanctions pénales. Ils doivent notamment s'abstenir, s'agissant des informations
       nominatives auxquelles ils accèdent, de toute collecte, de toute utilisation détournée et, d'une manière générale,
-      de
-      tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.</p>
+      de tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.</p>
 
     <p>La commune de Borrèze ne pourra être tenue pour responsable de tout dommage direct et/ou indirect résultant de
-      l'utilisation
-      faite par le client du site et/ou de toute information qu'il contient.</p>
+      l'utilisation faite par le client du site et/ou de toute information qu'il contient.</p>
 
-    <p>Le site borreze.com peut renvoyer l'utilisateur à d'autres sites internet par le biais de liens hypertexte. Ces
-      liens
-      ont
-      été insérés dans le site borreze.com avec l'autorisation des titulaires des sites liés. En tout état de cause, la
-      borreze.com
-      ne saurait être responsable du contenu de ses sites, lesquels relèvent de l'entière responsabilité de leurs
-      titulaires.</p>
+    <p>Le site borreze.com peut renvoyer l'utilisateur à d'autres sites internet par le biais de liens hypertexte. La
+      commune de Boorèze ne saurait être responsable du contenu de ses sites, lesquels relèvent de l'entière
+      responsabilité de leurs titulaires.</p>
 
-    <p>Certains dangers sont inhérents à l'utilisation de l'internet et l'utilisateur est mis en garde quant à la
-      nécessité
-      de prendre en compte les risques potentiels (toute infection par virus d'ordinateur, tout bogue, tout
-      ralentissement,
-      etc…) avant de procéder à la consultation du site borreze.com.</p>
+    <p>Certains dangers sont inhérents à l'utilisation d'internet et l'utilisateur est mis en garde quant à la
+      nécessité de prendre en compte les risques potentiels (toute infection par virus d'ordinateur, tout bug, tout
+      ralentissement, etc…) avant de procéder à la consultation du site borreze.com.</p>
   </section>
 
   <section>
@@ -73,8 +59,7 @@
       intellectuelle.</p>
 
     <p>La commune de Borrèze conserve tous les droits patrimoniaux et moraux liés aux documents de ce site, sous réserve
-      des
-      droits dont bénéficient les auteurs d'œuvres publiées sur ce site. Ainsi, tous les droits de reproduction, sur
+      des droits dont bénéficient les auteurs d'œuvres publiées sur ce site. Ainsi, tous les droits de reproduction, sur
       supports électroniques ou papier, sont-ils réservés, y compris pour les documents téléchargeables et les
       représentations iconographiques et/ou photographiques.</p>
   </section>
