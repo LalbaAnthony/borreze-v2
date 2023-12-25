@@ -1,8 +1,6 @@
 <template>
-  <h1>This is the HomePage</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequatur nobis adipisci dolore veniam quae
-    quisquam, laboriosam temporibus repellat voluptatem quo mollitia eum molestiae officiis optio quidem commodi sed
-    earum?</p>
+  <h1>Accueil</h1>
+  <p>Toujours en travaux par ici</p>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <h2 class="page-title">Contactez-nous !</h2>
+  <h2 class="page-title">Contact</h2>
 
   <div class="contact-grid">
     <div class="contact-element">
@@ -90,7 +90,7 @@ import IconGeoAlt from '@/components/icons/IconGeoAlt.vue';
 }
 
 .contact-grid {
-  margin: 0 1.5rem;
+  margin: 2rem 1.5rem;
 }
 
 .contact-element {
