@@ -2,7 +2,6 @@ import { defineStore } from 'pinia'
 
 export const useConseillerStore = defineStore('conseiller', {
   state: () => ({
-    loading: true,
     conseillers: [
       {
         profilePicturePath: '',
@@ -119,8 +118,6 @@ export const useConseillerStore = defineStore('conseiller', {
 
   actions: {
     sortConseillers() {
-      this.loading = true
-
       this.conseillers.sort((a, b) => {
         if (a.roleRank !== b.roleRank) {
           return b.roleRank - a.roleRank;
@@ -128,8 +125,6 @@ export const useConseillerStore = defineStore('conseiller', {
           return a.lastname.localeCompare(b.lastname);
         }
       });
-
-      this.loading = false
     }
   },
 })

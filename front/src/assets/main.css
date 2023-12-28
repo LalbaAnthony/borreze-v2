@@ -30,7 +30,7 @@
 
 section {
     padding: 1rem 0rem;
-    margin-bottom: 1.5rem;
+    margin: 1rem 0rem;
 }
 
 h2.page-title {
@@ -76,6 +76,13 @@ img.page-img {
     width: 100%;
     max-width: 600px;
     height: auto;
+    margin: 1rem 0;
+}
+
+p.page-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 span.pill {
