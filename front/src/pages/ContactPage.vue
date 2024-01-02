@@ -11,7 +11,7 @@
     <div class="contact-element">
       <IconEnvelope class="contact-icon" />
       <h4>Par E-mail</h4>
-      <p>Envoyez un E-mail à l'adresse à mairie.borreze@wanadoo.fr</p>
+      <p>Envoyez un E-mail à l'adresse mairie.borreze@wanadoo.fr</p>
       <a href="mailto:mairie.borreze@wanadoo.fr" class="button positive">Envoyer un E-mail</a>
     </div>
     <div class="contact-element">

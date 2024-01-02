@@ -21,6 +21,7 @@ Front:
     - [X] Souvenir local et stocker en local
 - [X] Pages:
     - [ ] Actualité, API pour récup les actus depuis facebook ?
+        - [ ] Compoent MorePosts: en faire un slider, pr pas prendre trop de place quand sera utilisé sur homepage
     - [ ] Conseils municipale
         - [ ] Animation succesif des pp
         - [X] Ajouter conseillés, faire un store, avec fonction de tri complexe qui prend role/alphabetique et un autre table role avec ordre de tri
