@@ -1,4 +1,4 @@
-z<template>
+<template>
   <header>
     <router-link to="/">
       <img class="armorial" src="/armorial_borreze.png" alt="Armorial de Borrèze">
@@ -311,5 +311,4 @@ img.header-image {
   color: var(--primary);
   transition: all 0.2s ease-in-out;
 }
-
 </style>

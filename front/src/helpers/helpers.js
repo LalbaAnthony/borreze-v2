@@ -7,6 +7,7 @@ export function isMobile() {
 }
 
 export function threeDotString(str, maxLen = 100) {
+    if (str.length <= maxLen) return str;
     return str.slice(0, maxLen).trim() + " ...";
 }
 
