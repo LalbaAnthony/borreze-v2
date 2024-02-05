@@ -50,7 +50,7 @@ Il est conçu en VueJS, le style est entierement custom, écrit à la main par n
 
 ***Accessibilité***
 
-Des `sr-only` sont présents sur les éléments non visibles par l'utilisateur, afin de garantir une bonne accessibilité.<br>
+Des `sr-only` sont présents sur les éléments cliquables par l'utilisateur, afin de garantir une bonne accessibilité.<br>
 
 ***SEO***
 
