@@ -29,12 +29,4 @@
   margin-bottom: 1rem;
 }
 
-.center button {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
 </style>
