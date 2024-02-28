@@ -83,9 +83,9 @@ const menu = ref([
     icon: 'IconBuilding',
   },
   {
-    name: 'Conseil municipale',
-    slug: 'conseil-municipale',
-    path: '/conseil-municipale',
+    name: 'Conseil municipal',
+    slug: 'conseil-municipal',
+    path: '/conseil-municipal',
     icon: 'IconPeople',
   },
   {

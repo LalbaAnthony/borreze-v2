@@ -25,8 +25,8 @@ const router = createRouter({
       component: () => import('../pages/SalleDesFetesPage.vue'),
     },
     {
-      path: '/conseil-municipale',
-      name: 'Conseil municipale',
+      path: '/conseil-municipal',
+      name: 'Conseil municipal',
       component: () => import('../pages/ConseilMunicipalePage.vue'),
     },
     {
