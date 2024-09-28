@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /borreze/back/
+RewriteBase /projects/borreze-v2/back/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /borreze/back/index.php [L]
+RewriteRule . /projects/borreze-v2/back/index.php [L]
 </IfModule>
 
 # END WordPress
